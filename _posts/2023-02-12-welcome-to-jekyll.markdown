@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "There is no blog post yet!"
+title:  "This is a sample blog post!"
 date:   2023-02-12 10:13:35 +0200
 categories: devops
 ---
