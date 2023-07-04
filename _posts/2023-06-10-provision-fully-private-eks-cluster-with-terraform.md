@@ -7,6 +7,8 @@ categories: DevOps EKS AWS Terraform HELM
 
 # Setting up EKS with Terraform, Helm and a Load balancer
 
+[Github Repository](https://github.com/Skanyi/terraform-projects/tree/main/eks)
+
 ### Prerequisite
 
 Before we proceed and provision EKS Cluster using Terraform, there are a few commands or tools you need to have in the server where you will be creating the cluster from.
