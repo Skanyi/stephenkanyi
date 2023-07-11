@@ -436,12 +436,18 @@ An EKS Cluster can be created using a variety of methods; nevertheless, using th
 
 The above method is just one of the method that can be used to create the EKS clusters. 
 
+## Next Steps
+
+The following project deploys a sample nginx application and create a load balancer that can be used to access the application. 
+
+[Deploy sample application and create a Load Balancer Using Terraform to EKS Cluster](https://www.stephenkanyi.com/devops/eks/aws/terraform/helm/loadbalancer/2023/07/11/Deploy-sample-application-and-Create-a-Load-Balancer-Using-Terraform-to-EKS-Cluster.html)
+
 Throughout the following setup, I referenced heavily from the following sources. 
 
 [1] AWS VPC Terraform module - https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest<br>
-[2] AWS EKS Terraform module - https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest<br>
-[3] IAM Role for Service Accounts in EKS - https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/examples/iam-role-for-service-accounts-eks<br>
-[4] Resource: helm_release - https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release
 
+[2] AWS EKS Terraform module - https://registry.terraform.io/modules/terraform-aws-modules/eks/aws/latest<br>
+
+[3] IAM Role for Service Accounts in EKS - https://github.com/terraform-aws-modules/terraform-aws-iam/tree/master/examples/iam-role-for-service-accounts-eks<br>
 
 
