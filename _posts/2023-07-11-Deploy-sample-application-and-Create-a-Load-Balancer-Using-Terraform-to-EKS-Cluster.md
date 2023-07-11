@@ -5,7 +5,7 @@ date:   2023-07-11 10:13:35 +0200
 categories: DevOps EKS AWS Terraform HELM LoadBalancer
 ---
 
-## Deploy sample application and Create a Load Balancer Using Terraform to EKS Cluster. 
+## Create a Load Balancer With Ingress Using Terraform to EKS Cluster. 
 
 [Github Repository](https://github.com/Skanyi/terraform-projects/tree/main/applications/sample-application-nginx)
 
