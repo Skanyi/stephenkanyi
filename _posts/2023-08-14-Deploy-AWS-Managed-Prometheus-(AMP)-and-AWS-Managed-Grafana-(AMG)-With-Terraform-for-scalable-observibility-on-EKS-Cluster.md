@@ -366,6 +366,10 @@ When the above is done, use the following commands to confirm if the prometheus 
 
 ### Access the Grafana workspace and create 
 
+When the dashboard is imported, give it a moment and it should populate and look like this. 
+
+![Kubernetes EKS Cluster (Prometheus)](/assets/Kubernetes-Grafana-Sample-Dashboard.png " Deploy AWS Managed Prometheus (AMP) and AWS Managed Grafana (AMG) With Terraform for scalable observibility on EKS Cluster")
+
 Add prometheus as datasource in in Grafana Workspace withou the `/api/v1/query` on the url. Select AWS SDK as authentication provider and update the region. 
 
 
@@ -383,12 +387,6 @@ Create a sample dashboard by importing a sample dashboard from grafana. Search a
 
 
 ![Import Dashboard ](/assets/Kubernetes-Grafana-dashboard.png " Deploy AWS Managed Prometheus (AMP) and AWS Managed Grafana (AMG) With Terraform for scalable observibility on EKS Cluster")
-
-
-When the dashboard is imported, give it a moment and it should populate and look like this. 
-
-
-![Kubernetes EKS Cluster (Prometheus)](/assets/Kubernetes-Grafana-Sample-Dashboard.png " Deploy AWS Managed Prometheus (AMP) and AWS Managed Grafana (AMG) With Terraform for scalable observibility on EKS Cluster")
 
 
 At this moment you have both AMP and AMG configured. Grafana dashboards can be created to monitor the metrics important to you in your EKS cluster. 
