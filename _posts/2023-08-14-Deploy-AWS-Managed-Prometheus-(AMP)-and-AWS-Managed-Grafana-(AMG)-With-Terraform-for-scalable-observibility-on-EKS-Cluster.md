@@ -5,6 +5,8 @@ date:   2023-08-14 10:13:35 +0200
 categories: DevOps EKS AWS Terraform HELM Prometheus Grafana AMP AMG
 ---
 
+[Github Repository](https://github.com/Skanyi/terraform-projects/tree/main/monitoring)
+
 ### Prerequisite
 
 Before we proceed deploy AMP and AMG using Terraform, there are a few commands or tools you need to have in the server where you will be executing the terraform scripts on.
